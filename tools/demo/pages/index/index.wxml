@@ -1,0 +1,8 @@
+<nb-navigation title="欧绅的实验室得得得得" bind:getNavigationHeight="getNavigationHeight"></nb-navigation>
+
+
+<view class="page" style="padding-top:{{navigationHeight}}px;">
+  <view class="demo">
+    <text class="demo__txt">这里是正文部分。</text>
+  </view>
+</view>

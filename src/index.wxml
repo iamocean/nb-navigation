@@ -1,0 +1,14 @@
+<cover-view class="navigation">
+  <cover-view class="navigation__statusbar" style="height: {{statusBarHeight}}px;"></cover-view>
+  <cover-view class="navigation__navigationbar" style="height:{{navigationBarHeight}}px;">
+    <cover-view class="navigation__hd" wx:if="{{isShowBtnBack}}">
+      <cover-view class="navigation__btn" bindtap="onClickBtnBack">
+        <cover-image class="navigation__btn-icon" src="{{customBtnBackIcon}}"></cover-image>
+      </cover-view>
+    </cover-view>
+    <cover-view class="navigation__bd">
+      <cover-view class="navigation__txt-title" style="color: {{textTitleColor}}">{{title}}</cover-view>
+      <cover-view class="navigation__txt-description" wx:if="{{isShowDescription}}" style="color: {{textDescriptionColor}}" >{{description}}</cover-view>
+    </cover-view>
+  </cover-view>
+</cover-view>

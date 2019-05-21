@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "nb-navigation": "../../components/index"
+  }
+}
